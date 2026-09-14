@@ -1,15 +1,25 @@
-# Prajval Srivastava — Chapter-Style Streamlit Portfolio
+# Prajval Srivastava — NYC Night Portfolio
 
-Visual direction is inspired by the supplied Ben Lin portfolio reference: atmospheric night palette, chapter navigation, oversized serif typography, minimal chrome, and project-led presentation. It is an original adaptation for a finance portfolio.
+A single-page finance portfolio with an original, cinematic night-sky and New York skyline treatment inspired by the supplied visual direction.
 
-## Important
-Upload the **entire repository structure** to GitHub:
-- `streamlit_app.py`
-- `requirements.txt`
-- `README.md`
-- `assets/` with the photo, resume, three Excel workbooks
+## Upload the complete repository
+Keep this structure:
+```text
+streamlit_app.py
+requirements.txt
+README.md
+assets/
+  profile.png
+  Prajval_Srivastava_Resume.docx
+  Sun_Pharma_Financial_Analysis.xlsx
+  Media_Industry_Financial_Benchmarking.xlsx
+  Portfolio_Benchmarking_Data_Pipeline.xlsx
+```
 
-## Project behavior
-"VIEW PROJECT" is a Streamlit button and uses session state, so it stays inside the same portfolio page. The detail view includes the problem, work completed, tools, output, evidence, original Excel download, and an in-page workbook inspection.
+The skyline is built into the Streamlit/CSS design; no external image asset is required.
 
-No dashboard preview images are used in this edition.
+## Projects
+View Project uses Streamlit session state, keeping the visitor on the same portfolio page. It shows the case study and the original Excel workbook download plus sheet inspection.
+
+## Deploy
+Upload the entire folder to GitHub and deploy `streamlit_app.py` with Streamlit Community Cloud.

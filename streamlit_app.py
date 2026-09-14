@@ -187,12 +187,23 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # -------------------- HERO --------------------
-st.markdown('<section class="hero"><div class="hero-grid">', unsafe_allow_html=True)
+st.markdown("""<section class="hero"><div class="hero-skyline">
+  <div class="farline"></div>
+  <div class="bridge"></div>
+  <div class="empire"></div>
+  <div class="one"></div>
+  <div class="skyline-buildings">
+    <div class="bldg b1"></div><div class="bldg b2"></div><div class="bldg b3"></div><div class="bldg b4"></div>
+    <div class="bldg b5"></div><div class="bldg b6"></div><div class="bldg b7"></div><div class="bldg b8"></div>
+    <div class="bldg b9"></div><div class="bldg b10"></div><div class="bldg b11"></div><div class="bldg b12"></div>
+  </div>
+</div>
+<div class="hero-grid">""", unsafe_allow_html=True)
 c1,c2=st.columns([1.12,.88],vertical_alignment="center")
 with c1:
     st.markdown('<div class="kicker">Corporate Finance · Financial Analysis · Excel</div>',unsafe_allow_html=True)
     st.markdown('<h1>Prajval<br>Srivastava</h1>',unsafe_allow_html=True)
-    st.markdown('<div class="hero-title">Corporate Finance &amp; Financial Analysis</div>',unsafe_allow_html=True)
+    st.markdown('<div class="hero-title">Welcome to my portfolio.<br>Corporate Finance &amp; Financial Analysis.</div>',unsafe_allow_html=True)
     st.markdown('<div class="hero-copy">PGDM Finance candidate at FIIB with Corporate Finance internship experience at Arizon Network India. I focus on translating financial statements into performance insights through financial benchmarking, ratio analysis, DuPont decomposition, red-flag assessment, and Excel-based analysis. I am seeking a Corporate Finance role where structured financial evaluation supports strategic business decisions.</div>',unsafe_allow_html=True)
     st.markdown("""
     <div class="hero-links">
