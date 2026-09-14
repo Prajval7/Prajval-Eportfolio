@@ -1,7 +1,8 @@
 # Prajval Srivastava — Streamlit Portfolio
 
-## IMPORTANT: upload the entire folder structure to GitHub
+Night-editorial design inspired by the supplied visual reference, adapted for a finance portfolio.
 
+## Upload the complete folder to GitHub
 ```text
 streamlit_app.py
 requirements.txt
@@ -12,20 +13,14 @@ assets/
   Sun_Pharma_Financial_Analysis.xlsx
   Media_Industry_Financial_Benchmarking.xlsx
   Portfolio_Benchmarking_Data_Pipeline.xlsx
-  project_previews/
-    sunpharma_report.png
-    sunpharma_dupont.png
-    media_comparison.png
-    media_ratio_analysis.png
-    portfolio_comparison.png
 ```
 
-The app uses relative paths under `assets/`. Do not upload only the Python and requirements files.
+Dashboard preview images were intentionally removed from the portfolio.
 
-### Streamlit Community Cloud
-1. Create a GitHub repository.
-2. Upload all files and folders above, preserving the structure.
-3. In Streamlit Community Cloud select `streamlit_app.py` as the main file.
-4. Deploy.
+## Project behavior
+- "VIEW PROJECT ↗" uses Streamlit session state, so it stays on the same portfolio page.
+- Project details include Problem, What I Did, Tools Used, Output, Evidence, workbook download, and an in-page workbook inspection control.
+- No external project website is opened.
 
-Project links open the project case study in the single-page site. The original Excel workbook can be downloaded, and its worksheets are previewed in-page.
+## Deploy
+Upload the entire repository to GitHub and deploy `streamlit_app.py` on Streamlit Community Cloud.
